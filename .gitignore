@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Duplicate "copy" files — originals are the canonical versions
+*copy*.py
+*\ copy.py
+
+# Node / JS (used only to generate the report, not part of submission)
+node_modules/
+package-lock.json
+package.json
+generate_report.js
+
+# macOS
+.DS_Store
+
+# Analysis scratch files
+analyse.py
